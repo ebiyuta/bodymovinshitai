@@ -1,0 +1,211 @@
+/* ====================
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: ''; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs
+*/
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+body {
+  overflow: hidden; }
+
+.read {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 1.6rem; }
+
+.js-btn {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  display: none;
+  width: calc(100% - 40px);
+  height: 40px;
+  padding: 10px 0;
+  background: transparent;
+  cursor: pointer; }
+  .js-btn button {
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    background: #ffd89b;
+    /* fallback for old browsers */
+    background: -webkit-gradient(linear, left top, right top, from(#ddd6f3), to(#faaca8));
+    background: -webkit-linear-gradient(left, #ddd6f3, #faaca8);
+    background: -o-linear-gradient(left, #ddd6f3, #faaca8);
+    background: linear-gradient(to right, #ddd6f3, #faaca8);
+    border: none;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center; }
+  @media (max-width: 768px) {
+    .js-btn {
+      display: block; } }
+
+input {
+  position: absolute;
+  top: 0px;
+  right: 100%;
+  display: none;
+  padding: 0;
+  font-size: 2rem;
+  opacity: 0; }
+  @media (max-width: 768px) {
+    input {
+      display: block; } }
+
+.twitterAccount {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  line-height: 1.5;
+  font-size: 1.8rem; }
+  .twitterAccount a {
+    color: #2b2b2b;
+    text-decoration: none; }
+    .twitterAccount a:hover {
+      text-decoration: underline; }
+
+.secMovin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh; }
+  .secMovinInner {
+    position: relative;
+    width: 80%;
+    height: 80vh; }
+    .secMovinInner > div {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+      @media (max-width: 768px) {
+        .secMovinInner > div {
+          width: 150px;
+          height: 150px; } }
+      .secMovinInner > div.num0 path {
+        fill: indianred;
+        stroke: indianred; }
+      .secMovinInner > div.num1 path {
+        fill: palegreen;
+        stroke: palegreen; }
+      .secMovinInner > div.num2 path {
+        fill: royalblue;
+        stroke: royalblue; }
+      .secMovinInner > div.num3 path {
+        fill: gold;
+        stroke: gold; }
+      .secMovinInner > div.num4 path {
+        fill: aqua;
+        stroke: aqua; }
+      .secMovinInner > div.num5 path {
+        fill: #211e55;
+        stroke: #211e55; }
+      .secMovinInner > div.num6 path {
+        fill: darkkhaki;
+        stroke: darkkhaki; }
+      .secMovinInner > div.num7 path {
+        fill: mediumspringgreen;
+        stroke: mediumspringgreen; }
+      .secMovinInner > div.num8 path {
+        fill: plum;
+        stroke: plum; }
+      .secMovinInner > div.num9 path {
+        fill: lightsteelblue;
+        stroke: lightsteelblue; }
+
+/*# sourceMappingURL=style.css.map */
